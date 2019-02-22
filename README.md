@@ -8,9 +8,9 @@
 
 ## 安装下载
 
-- 下载地址 https://github.com/fast-cache/fast-cache/releases
-- `npm i fast-cache-npm`
-- CDN http://unpkg.com/fast-cache-npm/release/bundle.js
+- 下载地址 
+- npm
+- CDN
 
 ## 快速使用
 
@@ -21,11 +21,11 @@
 
 ## 交流 & 提问
 
-https://github.com/fast-cache/fast-cache/issues
+https://github.com/github-linong/utils/issues
 
 ## 关于作者
 
-- 个人主页
+- [个人主页](https://segmentfault.com/u/linong)
 - 收款二维码
 
 
