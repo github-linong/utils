@@ -12,7 +12,7 @@ let utils = {
   isAndroid: /android/gi.test(ua),
   // iOS
   isIOS: /iphone|ipad|ipod|itouch/gi.test(ua), // IOS
-
+  
   // JSONP请求数据
   JSONP: (function () {
     var count = 0;
@@ -90,5 +90,13 @@ let utils = {
       return cancel;
     }
     return jsonp;
-  })()
+  })(),
+
+  polyfill_array_shuffle(){
+    if(Array.prototype.shuffle) return true;
+    Array.prototype.shuffle = function() {
+      for(var j, x, i = this.length; i; j = parseInt(Math.random() * i), x = this[--i], this[i] = this[j], this[j] = x);
+      return this;
+    };
+  }
 }
